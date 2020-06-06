@@ -1,6 +1,6 @@
 // modified from
 // https://github.com/facebookresearch/detectron2/blob/master/detectron2/layers/csrc/vision.cpp
-#define __HIP_PLATFORM_NVCC__
+#define __HIP_PLATFORM_HCC__
 #include <hip/hip_runtime_api.h>
 #include <torch/extension.h>
 
